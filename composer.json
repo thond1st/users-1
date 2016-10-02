@@ -1,0 +1,12 @@
+{
+    "name": "vitorbar/users",
+    "description": "Simple users crud package.",
+    "authors": [
+        {
+            "name": "Vítor Barroso",
+            "email": "vitor.vgb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
