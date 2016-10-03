@@ -1,6 +1,6 @@
 {
     "name": "vitorbar/users",
-    "description": "Simple users crud package.",
+    "description": "Simple users crud package for Laravel 5.3.",
     "authors": [
         {
             "name": "Vítor Barroso",
