@@ -52,14 +52,14 @@
             <div class="col-md-2">
                 <div class="form-group">
                     <label for="phone_prefix">DDD</label>
-                    <input type="text" name="phone_prefix" class="form-control">
+                    <input type="text" name="phone_prefix" class="form-control" maxlength="2">
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="form-group">
                     <label for="phone_number">Telefone</label>
-                    <input type="text" name="phone_number" class="form-control">
+                    <input type="text" name="phone_number" class="form-control" maxlength="15">
                 </div>
             </div>
 
@@ -70,14 +70,14 @@
             <div class="col-md-4">
                 <div class="form-group">
                     <label for="password">Senha</label>
-                    <input type="password" name="password" class="form-control">
+                    <input type="password" name="password" class="form-control" maxlength="15">
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="form-group">
                     <label for="password_confirm">Confirmação da senha</label>
-                    <input type="password" name="password_confirm" class="form-control">
+                    <input type="password" name="password_confirm" class="form-control" maxlength="15">
                 </div>
             </div>
 
