@@ -4,6 +4,7 @@ namespace Vitorbar\Users\Controllers;
 
 use Illuminate\Http\Request;
 
+use Vitorbar\Users\Requests\StoreUserRequest;
 use Vitorbar\Users\Role;
 use Vitorbar\Users\User;
 
@@ -57,7 +58,7 @@ class UserController extends Controller
      * @param \Vitorbar\Users\Requests\StoreUserRequest $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreUserRequest $request)
     {
         $data = $request->only([
             'name',
