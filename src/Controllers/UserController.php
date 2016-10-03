@@ -5,6 +5,7 @@ namespace Vitorbar\Users\Controllers;
 use Illuminate\Http\Request;
 
 use Vitorbar\Users\Requests\StoreUserRequest;
+use Vitorbar\Users\Requests\UpdateUserRequest;
 use Vitorbar\Users\Role;
 use Vitorbar\Users\User;
 
@@ -111,7 +112,7 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(UpdateUserRequest $request, $id)
     {
         $user = User::find($id)->first();
 

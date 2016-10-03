@@ -36,13 +36,6 @@ class UsersServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/resources/views' => base_path('resources/views/vendor/users'),
         ], 'views');
-
-        if(config('app.debug')) {
-            \Artisan::call('vendor:publish', [
-                '--tag' => 'views',
-                '--force' => true
-            ]);
-        }
     }
 
     /**
