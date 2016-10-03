@@ -1,0 +1,4 @@
+.action-column a, .action-column button {
+    float: right;
+    margin-left: 7px;
+}
