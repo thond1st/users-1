@@ -39,7 +39,7 @@
                     </button>
 
                     <a class="navbar-brand">
-                        <b>Admin</b>
+                        <b>Usuários</b>
                     </a>
 
                 </div>
@@ -47,10 +47,10 @@
                 <div id="navbar" class="collapse navbar-collapse">
                     
                     <ul class="nav navbar-nav">
-                        <li class="{{ Request::is('user*') ? 'active' : '' }}">
+                        <li class="{{ Request::is('users/user*') ? 'active' : '' }}">
                             <a href="{{ route('user.index') }}">Usuários</a>
                         </li>
-                        <li class="{{ Request::is('role*') ? 'active' : '' }}">
+                        <li class="{{ Request::is('users/role*') ? 'active' : '' }}">
                             <a href="{{ route('role.index') }}">Funções</a>
                         </li>
                     </ul>

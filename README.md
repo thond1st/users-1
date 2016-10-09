@@ -29,7 +29,6 @@ php artisan vendor:publish --provider="Vitorbar\Users\UsersServiceProvider"
 php artisan migrate
 ```
 
-#### Routes
+#### Access 
 
-* /user
-* /role
+http://localhost/users
