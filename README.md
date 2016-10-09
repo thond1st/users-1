@@ -4,7 +4,7 @@
 #### Composer install
 
 ```
-composer require vitorbar/users:dev-master
+composer require vitorbar/users
 ```
 
 #### Add service provider in ``config.app``
@@ -20,15 +20,16 @@ Vitorbar\Users\UsersServiceProvider::class,
 #### Publishing package files
 
 ```
-php artisan vendor:publish --force
+php artisan vendor:publish --provider="Vitorbar\Users\UsersServiceProvider"
 ```
 
-#### Set DB connection e run migrations
+#### Set DB connection and run migrations
 
 ```
 php artisan migrate
 ```
 
-#### Access URL
+#### Routes
 
-http://localhost/user
+* /user
+* /role

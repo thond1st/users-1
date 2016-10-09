@@ -1,6 +1,6 @@
 {
     "name": "vitorbar/users",
-    "description": "Simple users crud package for Laravel 5.3.",
+    "description": "Simple users crud package.",
     "authors": [
         {
             "name": "Vítor Barroso",
@@ -8,5 +8,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vitorbar\\Users\\": "src/"
+        }
+    }
 }
